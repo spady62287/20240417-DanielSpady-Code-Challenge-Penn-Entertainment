@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99709B762BD054520080E3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B752BD054520080E3AB /* AppDelegate.swift */; };
+		99709B782BD054520080E3AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B772BD054520080E3AB /* SceneDelegate.swift */; };
+		99709B7A2BD054520080E3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B792BD054520080E3AB /* ViewController.swift */; };
+		99709B7D2BD054520080E3AB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 99709B7C2BD054520080E3AB /* Base */; };
+		99709B7F2BD054540080E3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99709B7E2BD054540080E3AB /* Assets.xcassets */; };
+		99709B822BD054540080E3AB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 99709B812BD054540080E3AB /* Base */; };
+		99709B8D2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B8C2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift */; };
+		99709B972BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B962BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift */; };
+		99709B992BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B982BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99709B892BD054540080E3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99709B6A2BD054520080E3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99709B712BD054520080E3AB;
+			remoteInfo = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+		};
+		99709B932BD054540080E3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99709B6A2BD054520080E3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99709B712BD054520080E3AB;
+			remoteInfo = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99709B722BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99709B752BD054520080E3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99709B772BD054520080E3AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99709B792BD054520080E3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99709B7C2BD054520080E3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99709B7E2BD054540080E3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99709B812BD054540080E3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99709B832BD054540080E3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99709B882BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99709B8C2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift; sourceTree = "<group>"; };
+		99709B922BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99709B962BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift; sourceTree = "<group>"; };
+		99709B982BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99709B6F2BD054520080E3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99709B852BD054540080E3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99709B8F2BD054540080E3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99709B692BD054520080E3AB = {
+			isa = PBXGroup;
+			children = (
+				99709B742BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */,
+				99709B8B2BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests */,
+				99709B952BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests */,
+				99709B732BD054520080E3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99709B732BD054520080E3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99709B722BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app */,
+				99709B882BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests.xctest */,
+				99709B922BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99709B742BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */ = {
+			isa = PBXGroup;
+			children = (
+				99709B752BD054520080E3AB /* AppDelegate.swift */,
+				99709B772BD054520080E3AB /* SceneDelegate.swift */,
+				99709B792BD054520080E3AB /* ViewController.swift */,
+				99709B7B2BD054520080E3AB /* Main.storyboard */,
+				99709B7E2BD054540080E3AB /* Assets.xcassets */,
+				99709B802BD054540080E3AB /* LaunchScreen.storyboard */,
+				99709B832BD054540080E3AB /* Info.plist */,
+			);
+			path = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			sourceTree = "<group>";
+		};
+		99709B8B2BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				99709B8C2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift */,
+			);
+			path = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests";
+			sourceTree = "<group>";
+		};
+		99709B952BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99709B962BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift */,
+				99709B982BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift */,
+			);
+			path = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99709B712BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99709B9C2BD054540080E3AB /* Build configuration list for PBXNativeTarget "20240417-DanielSpady-Code-Challenge-Penn-Entertainment" */;
+			buildPhases = (
+				99709B6E2BD054520080E3AB /* Sources */,
+				99709B6F2BD054520080E3AB /* Frameworks */,
+				99709B702BD054520080E3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			productName = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			productReference = 99709B722BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99709B872BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99709B9F2BD054540080E3AB /* Build configuration list for PBXNativeTarget "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests" */;
+			buildPhases = (
+				99709B842BD054540080E3AB /* Sources */,
+				99709B852BD054540080E3AB /* Frameworks */,
+				99709B862BD054540080E3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99709B8A2BD054540080E3AB /* PBXTargetDependency */,
+			);
+			name = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests";
+			productName = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests";
+			productReference = 99709B882BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99709B912BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99709BA22BD054540080E3AB /* Build configuration list for PBXNativeTarget "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests" */;
+			buildPhases = (
+				99709B8E2BD054540080E3AB /* Sources */,
+				99709B8F2BD054540080E3AB /* Frameworks */,
+				99709B902BD054540080E3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99709B942BD054540080E3AB /* PBXTargetDependency */,
+			);
+			name = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests";
+			productName = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests";
+			productReference = 99709B922BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99709B6A2BD054520080E3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					99709B712BD054520080E3AB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					99709B872BD054540080E3AB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 99709B712BD054520080E3AB;
+					};
+					99709B912BD054540080E3AB = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 99709B712BD054520080E3AB;
+					};
+				};
+			};
+			buildConfigurationList = 99709B6D2BD054520080E3AB /* Build configuration list for PBXProject "20240417-DanielSpady-Code-Challenge-Penn-Entertainment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99709B692BD054520080E3AB;
+			productRefGroup = 99709B732BD054520080E3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99709B712BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */,
+				99709B872BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests */,
+				99709B912BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99709B702BD054520080E3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99709B7F2BD054540080E3AB /* Assets.xcassets in Resources */,
+				99709B822BD054540080E3AB /* Base in Resources */,
+				99709B7D2BD054520080E3AB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99709B862BD054540080E3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99709B902BD054540080E3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99709B6E2BD054520080E3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99709B7A2BD054520080E3AB /* ViewController.swift in Sources */,
+				99709B762BD054520080E3AB /* AppDelegate.swift in Sources */,
+				99709B782BD054520080E3AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99709B842BD054540080E3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99709B8D2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99709B8E2BD054540080E3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99709B972BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift in Sources */,
+				99709B992BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99709B8A2BD054540080E3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99709B712BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */;
+			targetProxy = 99709B892BD054540080E3AB /* PBXContainerItemProxy */;
+		};
+		99709B942BD054540080E3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99709B712BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */;
+			targetProxy = 99709B932BD054540080E3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99709B7B2BD054520080E3AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99709B7C2BD054520080E3AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99709B802BD054540080E3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99709B812BD054540080E3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99709B9A2BD054540080E3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99709B9B2BD054540080E3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99709B9D2BD054540080E3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4HR6Y9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielSpady.-0240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99709B9E2BD054540080E3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4HR6Y9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielSpady.-0240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99709BA02BD054540080E3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4HR6Y9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielSpady.-0240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			};
+			name = Debug;
+		};
+		99709BA12BD054540080E3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4HR6Y9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielSpady.-0240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			};
+			name = Release;
+		};
+		99709BA32BD054540080E3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4HR6Y9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielSpady.-0240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			};
+			name = Debug;
+		};
+		99709BA42BD054540080E3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4HR6Y9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DanielSpady.-0240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99709B6D2BD054520080E3AB /* Build configuration list for PBXProject "20240417-DanielSpady-Code-Challenge-Penn-Entertainment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99709B9A2BD054540080E3AB /* Debug */,
+				99709B9B2BD054540080E3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99709B9C2BD054540080E3AB /* Build configuration list for PBXNativeTarget "20240417-DanielSpady-Code-Challenge-Penn-Entertainment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99709B9D2BD054540080E3AB /* Debug */,
+				99709B9E2BD054540080E3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99709B9F2BD054540080E3AB /* Build configuration list for PBXNativeTarget "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99709BA02BD054540080E3AB /* Debug */,
+				99709BA12BD054540080E3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99709BA22BD054540080E3AB /* Build configuration list for PBXNativeTarget "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99709BA32BD054540080E3AB /* Debug */,
+				99709BA42BD054540080E3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99709B6A2BD054520080E3AB /* Project object */;
+}
