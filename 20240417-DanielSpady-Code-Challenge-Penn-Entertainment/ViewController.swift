@@ -10,13 +10,22 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var launchScreenImageView: UIImageView!
-    @IBOutlet weak var swipeUpLabel: UILabel!
+    @IBOutlet weak var loadingLabel: UILabel!
 
+    var dataSource: AirQualityDataSource?
+    var mapView: AQMapView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        showMapView()
+        // Setup Data Source
+        dataSource = AirQualityDataSource(delegate: self)
+        
+        // Setup Map View
+        mapView = AQMapView(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height))
+        
+        addMapView()
     }
     
     @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
@@ -39,13 +48,50 @@ class ViewController: UIViewController {
         present(actionSheet, animated: true, completion: nil)
     }
     
+    private func addMapView() {
+        if let mapView = mapView {
+            let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+            view.addSubview(mapView)
+            mapView.setMapConstraints(superView: view)
+            mapView.addGestureRecognizer(tap)
+        }
+    }
+    
     private func showMapView() {
-        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
-        let mapView = AQMapView(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height))
-        view.addSubview(mapView)
-        mapView.setMapConstraints(superView: view)
+        mapView?.isHidden = true
+    }
+    
+    private func hideMapView() {
+        mapView?.isHidden = false
+    }
+}
+
+extension ViewController: ViewControllerDataSourceDelegate {
+    
+    private func setupCompletionBlock() {
+        dataSource?.onSuccess = { [weak self] successValue in
+            self?.showMapView()
+            dump(successValue)
+        }
         
-        mapView.addGestureRecognizer(tap)
+        dataSource?.onFailure = { [weak self] failureValue in
+            self?.hideMapView()
+            dump(failureValue)
+        }
+    }
+
+    func didStartLoading() {
+        self.loadingLabel.text = "Loading Air Quality Coordinates"
+        self.hideMapView()
+    }
+
+    func didFinishLoadingWithSuccess() {
+        self.showMapView()
+    }
+
+    func didFinishLoadingWithError() {
+        self.loadingLabel.text = "Request has Failed"
+        self.hideMapView()
     }
 }
 
