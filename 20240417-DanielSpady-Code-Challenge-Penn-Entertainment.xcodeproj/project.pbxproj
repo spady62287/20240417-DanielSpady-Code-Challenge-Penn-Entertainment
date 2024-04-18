@@ -16,6 +16,7 @@
 		99709B8D2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B8C2BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentTests.swift */; };
 		99709B972BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B962BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift */; };
 		99709B992BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B982BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift */; };
+		999A35EE2BD09A03003A86A7 /* AQMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999A35ED2BD09A03003A86A7 /* AQMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		99709B922BD054540080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20240417-DanielSpady-Code-Challenge-Penn-EntertainmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99709B962BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITests.swift; sourceTree = "<group>"; };
 		99709B982BD054540080E3AB /* _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0240417_DanielSpady_Code_Challenge_Penn_EntertainmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		999A35ED2BD09A03003A86A7 /* AQMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				99709B752BD054520080E3AB /* AppDelegate.swift */,
 				99709B772BD054520080E3AB /* SceneDelegate.swift */,
 				99709B792BD054520080E3AB /* ViewController.swift */,
+				999A35ED2BD09A03003A86A7 /* AQMapView.swift */,
 				99709B7B2BD054520080E3AB /* Main.storyboard */,
 				99709B7E2BD054540080E3AB /* Assets.xcassets */,
 				99709B802BD054540080E3AB /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99709B7A2BD054520080E3AB /* ViewController.swift in Sources */,
+				999A35EE2BD09A03003A86A7 /* AQMapView.swift in Sources */,
 				99709B762BD054520080E3AB /* AppDelegate.swift in Sources */,
 				99709B782BD054520080E3AB /* SceneDelegate.swift in Sources */,
 			);

@@ -35,17 +35,30 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="T0Q-5D-4LL">
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap View" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12h-5m-34r">
+                                <rect key="frame" x="0.0" y="777.33333333333337" width="393" height="40.666666666666629"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="12h-5m-34r" secondAttribute="trailing" id="1Ae-Wb-5IF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="T0Q-5D-4LL" secondAttribute="bottom" id="5rd-Am-rZ0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="12h-5m-34r" secondAttribute="bottom" id="HMC-vi-5DW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T0Q-5D-4LL" secondAttribute="trailing" id="IYw-3P-lem"/>
                             <constraint firstItem="T0Q-5D-4LL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NQX-fm-eC0"/>
+                            <constraint firstItem="12h-5m-34r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aNB-fQ-bCv"/>
                             <constraint firstItem="T0Q-5D-4LL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tIs-IH-Kah"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zby-lA-jSm"/>
+                    <connections>
+                        <outlet property="launchScreenImageView" destination="T0Q-5D-4LL" id="SNa-Sd-Wwq"/>
+                        <outlet property="swipeUpLabel" destination="12h-5m-34r" id="Aek-5s-KYA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
