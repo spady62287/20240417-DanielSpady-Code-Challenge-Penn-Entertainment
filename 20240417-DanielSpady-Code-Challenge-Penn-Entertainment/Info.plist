@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Program requires GPS to show air quality</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Program requires GPS to show air quality</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Program requires GPS to show air quality</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app uses your Microphone to allow Voice over IP communication with the Program Admin system</string>
+	<key>baseUrl</key>
+	<string>https://api.api-ninjas.com/v1/airquality</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

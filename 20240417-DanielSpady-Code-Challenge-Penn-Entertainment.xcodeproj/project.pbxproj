@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99668C682BD193900007E7F0 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C672BD193900007E7F0 /* BaseRequest.swift */; };
+		99668C6A2BD194880007E7F0 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C692BD194880007E7F0 /* BaseService.swift */; };
+		99668C6C2BD1967E0007E7F0 /* BaseCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C6B2BD1967E0007E7F0 /* BaseCodable.swift */; };
+		99668C6E2BD196BF0007E7F0 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C6D2BD196BF0007E7F0 /* BaseResponse.swift */; };
+		99668C722BD19AF60007E7F0 /* MeasurementDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C712BD19AF60007E7F0 /* MeasurementDataModel.swift */; };
+		99668C742BD19D710007E7F0 /* MeasurementResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C732BD19D710007E7F0 /* MeasurementResponse.swift */; };
+		99668C762BD19DBF0007E7F0 /* MeasurementRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C752BD19DBF0007E7F0 /* MeasurementRequest.swift */; };
+		99668C782BD19F120007E7F0 /* AirQualityUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C772BD19F120007E7F0 /* AirQualityUtility.swift */; };
+		99668C7E2BD1E57E0007E7F0 /* ViewController+ViewControllerDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99668C7D2BD1E57E0007E7F0 /* ViewController+ViewControllerDataSourceDelegate.swift */; };
 		99709B762BD054520080E3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B752BD054520080E3AB /* AppDelegate.swift */; };
 		99709B782BD054520080E3AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B772BD054520080E3AB /* SceneDelegate.swift */; };
 		99709B7A2BD054520080E3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99709B792BD054520080E3AB /* ViewController.swift */; };
@@ -39,6 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		99668C672BD193900007E7F0 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		99668C692BD194880007E7F0 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		99668C6B2BD1967E0007E7F0 /* BaseCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCodable.swift; sourceTree = "<group>"; };
+		99668C6D2BD196BF0007E7F0 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		99668C712BD19AF60007E7F0 /* MeasurementDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementDataModel.swift; sourceTree = "<group>"; };
+		99668C732BD19D710007E7F0 /* MeasurementResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementResponse.swift; sourceTree = "<group>"; };
+		99668C752BD19DBF0007E7F0 /* MeasurementRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementRequest.swift; sourceTree = "<group>"; };
+		99668C772BD19F120007E7F0 /* AirQualityUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityUtility.swift; sourceTree = "<group>"; };
+		99668C7D2BD1E57E0007E7F0 /* ViewController+ViewControllerDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ViewControllerDataSourceDelegate.swift"; sourceTree = "<group>"; };
 		99709B722BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20240417-DanielSpady-Code-Challenge-Penn-Entertainment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99709B752BD054520080E3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99709B772BD054520080E3AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +100,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99668C652BD193610007E7F0 /* Subsystems */ = {
+			isa = PBXGroup;
+			children = (
+				99668C792BD1E35E0007E7F0 /* Views */,
+				99668C662BD193730007E7F0 /* Base */,
+			);
+			path = Subsystems;
+			sourceTree = "<group>";
+		};
+		99668C662BD193730007E7F0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				99668C672BD193900007E7F0 /* BaseRequest.swift */,
+				99668C692BD194880007E7F0 /* BaseService.swift */,
+				99668C6B2BD1967E0007E7F0 /* BaseCodable.swift */,
+				99668C6D2BD196BF0007E7F0 /* BaseResponse.swift */,
+				999A35EF2BD15C26003A86A7 /* ViewControllerDataSource.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		99668C6F2BD19A680007E7F0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				99668C772BD19F120007E7F0 /* AirQualityUtility.swift */,
+				999A35F12BD15E93003A86A7 /* AirQualityDataSource.swift */,
+				99668C7C2BD1E5010007E7F0 /* Controller */,
+				99668C702BD19A6F0007E7F0 /* Model */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		99668C702BD19A6F0007E7F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99668C712BD19AF60007E7F0 /* MeasurementDataModel.swift */,
+				99668C732BD19D710007E7F0 /* MeasurementResponse.swift */,
+				99668C752BD19DBF0007E7F0 /* MeasurementRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99668C792BD1E35E0007E7F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				999A35ED2BD09A03003A86A7 /* AQMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99668C7C2BD1E5010007E7F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99709B792BD054520080E3AB /* ViewController.swift */,
+				99668C7D2BD1E57E0007E7F0 /* ViewController+ViewControllerDataSourceDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		99709B692BD054520080E3AB = {
 			isa = PBXGroup;
 			children = (
@@ -105,12 +182,10 @@
 		99709B742BD054520080E3AB /* 20240417-DanielSpady-Code-Challenge-Penn-Entertainment */ = {
 			isa = PBXGroup;
 			children = (
+				99668C6F2BD19A680007E7F0 /* Features */,
+				99668C652BD193610007E7F0 /* Subsystems */,
 				99709B752BD054520080E3AB /* AppDelegate.swift */,
 				99709B772BD054520080E3AB /* SceneDelegate.swift */,
-				99709B792BD054520080E3AB /* ViewController.swift */,
-				999A35F12BD15E93003A86A7 /* AirQualityDataSource.swift */,
-				999A35EF2BD15C26003A86A7 /* ViewControllerDataSource.swift */,
-				999A35ED2BD09A03003A86A7 /* AQMapView.swift */,
 				99709B7B2BD054520080E3AB /* Main.storyboard */,
 				99709B7E2BD054540080E3AB /* Assets.xcassets */,
 				99709B802BD054540080E3AB /* LaunchScreen.storyboard */,
@@ -267,12 +342,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99668C6A2BD194880007E7F0 /* BaseService.swift in Sources */,
+				99668C742BD19D710007E7F0 /* MeasurementResponse.swift in Sources */,
 				999A35F02BD15C26003A86A7 /* ViewControllerDataSource.swift in Sources */,
 				99709B7A2BD054520080E3AB /* ViewController.swift in Sources */,
 				999A35EE2BD09A03003A86A7 /* AQMapView.swift in Sources */,
+				99668C682BD193900007E7F0 /* BaseRequest.swift in Sources */,
+				99668C6E2BD196BF0007E7F0 /* BaseResponse.swift in Sources */,
+				99668C6C2BD1967E0007E7F0 /* BaseCodable.swift in Sources */,
 				999A35F22BD15E93003A86A7 /* AirQualityDataSource.swift in Sources */,
+				99668C762BD19DBF0007E7F0 /* MeasurementRequest.swift in Sources */,
 				99709B762BD054520080E3AB /* AppDelegate.swift in Sources */,
 				99709B782BD054520080E3AB /* SceneDelegate.swift in Sources */,
+				99668C722BD19AF60007E7F0 /* MeasurementDataModel.swift in Sources */,
+				99668C782BD19F120007E7F0 /* AirQualityUtility.swift in Sources */,
+				99668C7E2BD1E57E0007E7F0 /* ViewController+ViewControllerDataSourceDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
