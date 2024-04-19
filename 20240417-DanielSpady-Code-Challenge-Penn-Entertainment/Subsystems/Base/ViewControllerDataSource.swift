@@ -10,7 +10,7 @@ import Foundation
 protocol ViewControllerDataSourceDelegate: AnyObject {
     func didStartLoading()
     func didFinishLoadingWithSuccess()
-    func didFinishLoadingWithError()
+    func didFinishLoadingWithError(error: Error?)
 }
 
 class ViewControllerDataSource {
@@ -30,7 +30,7 @@ class ViewControllerDataSource {
         delegate?.didFinishLoadingWithSuccess()
     }
     
-    func taskFailed() {
-        delegate?.didFinishLoadingWithError()
+    func taskFailed(error: Error?) {
+        delegate?.didFinishLoadingWithError(error: error)
     }
 }
